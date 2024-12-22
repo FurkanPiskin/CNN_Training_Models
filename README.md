@@ -93,3 +93,31 @@ Eğitilen model .h5 formatında kaydedilmiştir. Bu, modelin daha sonra tekrar k
 model.save("/kaggle/working/my_model10.h5")
 Sonuç
 Bu proje, evcil hayvan türlerini tanımak için kullanılan bir derin öğrenme modelinin geliştirilmesini ve bu modelin eğitilmesini içermektedir. Modelin başarısını artırmak için görüntü işleme teknikleri (renk sabitleme, veri artırma) ve derin öğrenme stratejileri (CNN, dropout, One-Hot Encoding) kullanılmıştır. Proje, görüntü sınıflandırma görevlerinde derin öğrenmenin etkin kullanımını göstermektedir.
+
+Modelin performansını artırmak için şu adımları uygulayabilirsiniz:
+
+Veri Kümesi Geliştirme:
+
+Daha fazla görsel ve sınıf ekleyerek çeşitliliği artırın.
+Veri dengesizliği varsa, eksik sınıflar için veri artırma uygulayın.
+Veri Ön İşleme ve Artırma:
+
+Gelişmiş veri artırma teknikleri (gürültü ekleme, ışık değişiklikleri, kesme).
+Renk uzayı çeşitlendirme (HSV, LAB).
+Model İyileştirme:
+
+Daha derin CNN mimarileri ve farklı aktivasyon fonksiyonları deneyin.
+Hiperparametre optimizasyonu (batch size, learning rate).
+Transfer Learning:
+
+VGG16, ResNet gibi önceden eğitilmiş modellerden yararlanın.
+Regularization (Düzenleme):
+
+Dropout, batch normalization ve L2 regularization ekleyin.
+Eğitim Stratejileri:
+
+Learning rate scheduler ve cross-validation kullanarak modelin doğruluğunu artırın.
+Değerlendirme:
+
+Confusion matrix, precision, recall ve F1 score gibi metrikleri analiz edin.
+Bu yöntemler, modelin doğruluğunu artırırken overfitting’i önlemenize yardımcı olacaktır.
