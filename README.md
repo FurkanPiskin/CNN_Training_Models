@@ -1,4 +1,5 @@
 # CNN_Training_Models
+https://www.kaggle.com/code/furkanpikin/training/edit
  Animal  Kaggle Dataset Model Training
 Proje Özeti: Evcil Hayvan Görsel Sınıflandırma Modeli
 Bu proje, evcil hayvan sınıflarını tanıyabilen bir derin öğrenme modelinin geliştirilmesini amaçlamaktadır. Proje, Evcil Hayvan Görselleri (Animals with Attributes 2) veri kümesinden alınan resimlerle eğitilen bir konvolüsyonel sinir ağı (CNN) modeli kullanmaktadır. Model, çeşitli görüntü işleme teknikleri ve derin öğrenme metotlarıyla sınıflandırma görevini yerine getirir.
